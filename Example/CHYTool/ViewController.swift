@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import CHYTool
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let dd = CHYNetwork.init()
+        dd.addToNotifiList(CHYNetworkObserverModel.init(indentifiter: "", observerObject: self))
+//        delegateWindow()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +24,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension ViewController:CHYNetworkProtocol{
+    func networkStatusChanged(network state: CHYTool.CHYNetworkState) {
+        
+    }
+    
+    
 }
 

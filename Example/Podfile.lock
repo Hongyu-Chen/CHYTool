@@ -1,0 +1,16 @@
+PODS:
+  - CHYTool (0.1.0)
+
+DEPENDENCIES:
+  - CHYTool (from `../`)
+
+EXTERNAL SOURCES:
+  CHYTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHYTool: e98b2ebda965c0ee7f127ea526319879b1f58b1e
+
+PODFILE CHECKSUM: 5ca55389001c3ed1b610a68234c59aac34eb845e
+
+COCOAPODS: 1.14.3

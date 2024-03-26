@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5B81806D27A445DE3512A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C5B81806D27A445DE3512A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F30639C1E5F3524321E6E83 /* Pods_CHYTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHYTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F3FF1365AD8CCEEF549852A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3F3FF1365AD8CCEEF549852A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		512436D1742A2B0C40509361 /* Pods-CHYTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHYTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHYTool_Tests/Pods-CHYTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CHYTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHYTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* CHYTool_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHYTool_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		66B6C5CDFECBBA4B971AE671 /* CHYTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHYTool.podspec; path = ../CHYTool.podspec; sourceTree = "<group>"; };
+		66B6C5CDFECBBA4B971AE671 /* CHYTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHYTool.podspec; path = ../CHYTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E26FDD052B06188B1BDFDFB /* Pods-CHYTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHYTool_Example.release.xcconfig"; path = "Target Support Files/Pods-CHYTool_Example/Pods-CHYTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3AE378A5C363F4EF3AF8C8D /* Pods-CHYTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHYTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHYTool_Example/Pods-CHYTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CE10FC392DD5314EB72AB122 /* Pods-CHYTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHYTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CHYTool_Tests/Pods-CHYTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				CE10FC392DD5314EB72AB122 /* Pods-CHYTool_Tests.debug.xcconfig */,
 				512436D1742A2B0C40509361 /* Pods-CHYTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

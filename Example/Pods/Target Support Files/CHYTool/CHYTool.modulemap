@@ -1,0 +1,6 @@
+framework module CHYTool {
+  umbrella header "CHYTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
