@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+
+extension UIViewController {
+    
+//    func fetchData(){
+//        
+//    }
+    
+//    func
+    
+    
+}
